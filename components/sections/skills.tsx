@@ -19,18 +19,18 @@ const skills = {
       "TailwindCSS",
       "Framer Motion",
     ],
-    Intermediate: ["Vue.js", "Angular", "Redux", "GraphQL", "Three.js"],
-    Familiar: ["Svelte", "WebGL", "D3.js"],
+    Intermediate: ["Redux", "Shadcn UI", "React Query", "Three.js"],
+    Familiar: ["React Table", "React Hook Form", "React Router", "Jotai"],
   },
   "Backend Development": {
-    Advanced: ["Node.js", "Express", "REST APIs", "MongoDB"],
-    Intermediate: ["PostgreSQL", "Redis", "Docker", "Microservices"],
-    Familiar: ["AWS", "Firebase", "Kubernetes"],
+    Advanced: ["Node.js", "Express", "REST APIs", "Spring Boot", "FastAPI", "PostgreSQL"],
+    Intermediate: ["Docker", "Microservices"],
+    Familiar: ["AWS", "Firebase"],
   },
   "Tools & Others": {
-    Advanced: ["Git", "VS Code", "Figma", "Jest", "GitHub Actions"],
-    Intermediate: ["Webpack", "Vite", "Storybook", "CircleCI"],
-    Familiar: ["Jenkins", "Terraform", "Apache Kafka"],
+    Advanced: ["Git", "VS Code", "Figma", "GitHub Actions"],
+    Intermediate: ["Webpack", "Vite", "Storybook"],
+    Familiar: ["Apache Solr", "Nginx"],
   },
 };
 

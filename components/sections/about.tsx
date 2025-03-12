@@ -78,7 +78,7 @@ export function About() {
                 </Button>
                 <Button variant="outline" asChild>
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/akshaysaambram"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -88,7 +88,7 @@ export function About() {
                 </Button>
                 <Button variant="outline" asChild>
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/akshaysaambram"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -97,7 +97,7 @@ export function About() {
                   </a>
                 </Button>
                 <Button variant="outline" asChild>
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:akshaysaambram@gmail.com">
                     <Mail className="mr-2 h-4 w-4" />
                     Email
                   </a>

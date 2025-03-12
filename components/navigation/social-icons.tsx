@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "../ui/button";
 
 interface SocialIconsProps {
@@ -11,17 +11,12 @@ interface SocialIconsProps {
 
 const socialLinks = [
   {
-    href: "https://github.com/yourusername",
+    href: "https://github.com/akshaysaambram",
     icon: Github,
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/yourusername",
-    icon: Twitter,
-    label: "Twitter",
-  },
-  {
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/akshaysaambram",
     icon: Linkedin,
     label: "LinkedIn",
   },

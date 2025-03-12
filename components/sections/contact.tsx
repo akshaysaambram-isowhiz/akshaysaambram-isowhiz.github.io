@@ -1,9 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export function Contact() {
   return (
@@ -23,60 +22,39 @@ export function Contact() {
                 Have a project in mind or want to collaborate? Feel free to
                 reach out. I&apos;d love to hear from you!
               </p>
-              <div className="space-y-4">
-                <Card>
-                  <CardHeader>
-                    <CardTitle className="text-lg">
-                      Contact Information
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <div className="flex items-center gap-2">
-                      <Mail className="h-4 w-4 text-muted-foreground" />
-                      <a
-                        href="mailto:akshaysaambram@gmail.com"
-                        className="text-sm hover:underline"
-                      >
-                        akshaysaambram@gmail.com
-                      </a>
-                    </div>
-                    <div className="flex gap-4">
-                      <Button variant="outline" size="icon" asChild>
-                        <a
-                          href="https://github.com/yourusername"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="GitHub Profile"
-                        >
-                          <Github className="h-4 w-4" />
-                        </a>
-                      </Button>
-                      <Button variant="outline" size="icon" asChild>
-                        <a
-                          href="https://linkedin.com/in/yourusername"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="LinkedIn Profile"
-                        >
-                          <Linkedin className="h-4 w-4" />
-                        </a>
-                      </Button>
-                      <Button variant="outline" size="icon" asChild>
-                        <a
-                          href="https://twitter.com/yourusername"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label="Twitter Profile"
-                        >
-                          <Twitter className="h-4 w-4" />
-                        </a>
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
+              <div className="flex gap-4">
+                <Button variant="outline" size="icon" asChild>
+                  <a
+                    href="https://github.com/akshaysaambram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub Profile"
+                  >
+                    <Github className="h-4 w-4" />
+                  </a>
+                </Button>
+                <Button variant="outline" size="icon" asChild>
+                  <a
+                    href="https://www.linkedin.com/in/akshaysaambram"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn Profile"
+                  >
+                    <Linkedin className="h-4 w-4" />
+                  </a>
+                </Button>
+                <Button variant="outline" size="icon" asChild>
+                  <a
+                    href="mailto:akshaysaambram@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Mail Profile"
+                  >
+                    <Mail className="h-4 w-4" />
+                  </a>
+                </Button>
               </div>
             </div>
-            
           </div>
         </motion.div>
       </div>

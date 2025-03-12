@@ -17,11 +17,11 @@ import Link from "next/link";
 const items = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
+  // { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
-  { href: "#blog", label: "Blog" },
-  { href: "#testimonials", label: "Testimonials" },
-  { href: "#case-studies", label: "Case Studies" },
+  // { href: "#blog", label: "Blog" },
+  // { href: "#testimonials", label: "Testimonials" },
+  // { href: "#case-studies", label: "Case Studies" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -67,7 +67,7 @@ export function Navigation() {
           <SheetTrigger asChild>
             <Button
               variant="ghost"
-              className="mr-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+              className="mr-2 ml-auto px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
             >
               <Menu className="size-5" />
               <span className="sr-only">Toggle Menu</span>
@@ -75,14 +75,14 @@ export function Navigation() {
           </SheetTrigger>
           <SheetContent side="right" className="pr-0">
             <NavigationMenu>
-              <NavigationMenuList className="flex flex-col gap-2">
+              <NavigationMenuList className="flex flex-col items-start gap-2">
                 {items.map((item) => (
                   <NavigationMenuItem key={item.href}>
                     <Link href={item.href} legacyBehavior passHref>
                       <NavigationMenuLink
                         className={cn(
                           navigationMenuTriggerStyle(),
-                          "w-full justify-start",
+                          "w-full",
                           activeSection === item.href.slice(1) &&
                             "bg-accent text-accent-foreground",
                         )}
